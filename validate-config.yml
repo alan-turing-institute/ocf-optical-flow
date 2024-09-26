@@ -1,12 +1,11 @@
 model:
   name: "OpticalFlowFarneback"
   params:
-    history_steps: 1
-    example_parameter: 1
+    history_steps: 2
 validation:
   data_path: "/bask/homes/l/lwcf1795/vjgo8416-climate/shared/data/eumetsat/testing2022/2022_test_nonhrv.zarr"
   wandb_project_name: "cloudcasting"
   wandb_run_name: "OpticalFlowFarneback-validation"
   nan_to_num: False
   batch_size: 2
-  num_workers: 0
+  num_workers: 36

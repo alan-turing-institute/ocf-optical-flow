@@ -9,4 +9,14 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "cloudcasting @ git+https://github.com/alan-turing-institute/cloudcasting.git@v0.4.0",
+    "pandas", 
+    "dask",
+    "xarray",
+    "cartopy",
+    "ocf_blosc2",
+    "zarr",
+    "fsspec",
+    "gcsfs",
+    "opencv-contrib-python-headless",
+    "scikit-image",
 ]
