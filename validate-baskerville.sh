@@ -41,4 +41,4 @@ pip install -e .
 pip install --upgrade "jax[cuda12]"
 
 # run validation
-cloudcasting validate "validate-config.yml"
+cloudcasting validate --config-file "validate-config.yml"
